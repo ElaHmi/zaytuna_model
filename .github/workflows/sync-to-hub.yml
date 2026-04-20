@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Push to hub
-        uses: huggingface/hub-sync@v1
+        uses: huggingface/hub-sync@main
         with:
           repo: spaces/ElaHmi/zaytuna_model
           token: ${{ secrets.HF_TOKEN }}
